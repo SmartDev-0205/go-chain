@@ -1,0 +1,59 @@
+# IDE
+.vscode
+.idea/
+
+# Go prof output
+*.prof
+
+# Test files
+*.rlp
+
+# Go test output
+*/*.test
+*/*.out
+fuzzing/
+
+# Build output
+build
+dist
+TEST.md
+# Dependencies
+vendor
+glide.lock
+
+# patches and diff files
+*.patch
+*.diff
+
+# gomobile compilation output
+*.aar
+*.jar
+
+# archives
+*.tar.gz
+*.tgz
+*.zip
+*.exe
+
+# galaxy project specific
+scripts/certs
+scripts/nodes
+scripts/peers.json
+scripts/docker/upx
+nodes
+peers.json
+certs
+lachesis_*
+!*.go
+*.log
+*.graph
+*.gv
+*.finality
+TEST.md
+# Backup copies
+*~
+*.bak
+
+.#*
+
+**/coverage.txt
